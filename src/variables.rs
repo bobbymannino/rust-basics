@@ -53,8 +53,8 @@ fn data_types() {
     let int: isize = 10;
 
     // Doubles (floats)
-    let float = 2.0
-    let float :f32 = 2.0;
+    let float = 2.0;
+    let float: f32 = 2.0;
 
     // Characters
     let char = 'z';
@@ -69,7 +69,7 @@ fn data_types() {
 
     // arrays
     // elements must be of same type
-    let a = [1,2,3];
+    let a = [1, 2, 3];
     let a: [i64; 1] = [1];
     // create an array with 5 elements set to 3
     let a = [3; 5]; // [3, 3, 3, 3, 3]
