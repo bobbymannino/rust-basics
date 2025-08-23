@@ -2,10 +2,12 @@ mod logging;
 mod loops;
 mod random_numbers;
 mod tests;
+mod threads;
 mod variables;
 
 fn main() {
     // random_numbers::guess_the_number();
     // loops::loops();
-    logging::main();
+    // logging::main();
+    threads::threads();
 }
