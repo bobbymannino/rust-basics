@@ -1,6 +1,7 @@
 mod channels;
 mod logging;
 mod loops;
+mod mutexes;
 mod random_numbers;
 mod tests;
 mod threads;
@@ -11,6 +12,7 @@ fn main() {
     // loops::loops();
     // logging::main();
     // threads::threads();
-    channels::channels();
-    channels::multiple_vals();
+    // channels::channels();
+    // channels::multiple_vals();
+    mutexes::mutexes();
 }
