@@ -1,3 +1,4 @@
+mod channels;
 mod logging;
 mod loops;
 mod random_numbers;
@@ -9,5 +10,7 @@ fn main() {
     // random_numbers::guess_the_number();
     // loops::loops();
     // logging::main();
-    threads::threads();
+    // threads::threads();
+    channels::channels();
+    channels::multiple_vals();
 }
